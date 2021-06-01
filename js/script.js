@@ -23,36 +23,42 @@
 // Variante: stampare solo i numeri pari (modificato) 
 
 
-//----- for
+// ----- for
 // var somma = 0;
 
 // for (var i = 0; i < 5; i++) {    
-//         numeri = parseInt(prompt('inserisci numero'))
-//         // console.log(numeri);
-//         somma = somma + numeri;
+//         numero = parseInt(prompt('inserisci numero'))
+//         somma = somma + numero;
 // }
 
 // document.getElementById('numeri').innerHTML = somma;
 
-//----- while
+// ----- while
 // var somma = 0;
 // var i = 0;
-// while (i < 5) {    
-//         numeri = parseInt(prompt('inserisci numero'))
-//         // console.log(numeri);
-//         somma = somma + numeri;
+
+// while(i < 5){    
+//         numero = parseInt(prompt('inserisci numero'))
+//         somma = somma + numero;
 //         i++
 // }
 
 // document.getElementById('numeri').innerHTML = somma;
 
-//----- pari
+// ----- stampare pari
+// somma = 0;
+
 // for(var i = 0; i < 5; i++){
 //     numero = parseInt(prompt('inserisci il numero'));
 //     if (numero % 2 == 0){
 //         console.log(numero);
+//         document.getElementById('numeri').innerHTML += numero + ', ';
+//         //sommare pari
+//         somma += numero; 
 //     }
 // }
+//stampare somma pari
+// document.getElementById('somma').innerHTML = somma; 
 
 // DA SISTEMARE QUI
 
@@ -63,16 +69,36 @@
 // 20 minuti
 // Crea un array vuoto. Chiedi per 6 volte all’utente di inserire un numero, se è dispari inseriscilo nell’array
 
-var numArray = [];
-var num;
+// var numArray = [];
+// var num;
 
-for(var i = 0; i < 6; i++){
-    num = prompt('inserisci un numero');
-    if (num % 2 != 0){
-        numArray.push(num)
-    }    
-}
+// for(var i = 0; i < 6; i++){
+//     num = prompt('inserisci un numero');
+//     if (num % 2 != 0){
+//         numArray.push(num)
+//     }    
+// }
 
-document.getElementById('numArray').innerHTML = numArray;
+// document.getElementById('numArray').innerHTML = numArray;
 
 // ----- fine JSnack3 -----
+
+// ----- JSnack4 -----
+
+// In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all’utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+//creo array
+// var lista = [Jay Gatsby, Nick Carraway, Daisy, Tom, Myrtle, Il meccanico];
+
+// chiedo il nome all'utente
+// var nameUser = prompt('Inserisci il tuo nome');
+
+
+// verifico se il nome è nella lista, se si, può partecipare, altrimenti non può
+
+
+
+
+
+
+// ----- fine JSnack4 -----
